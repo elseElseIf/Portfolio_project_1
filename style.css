@@ -1,3 +1,6 @@
+body {
+  margin: 0;
+}
 h1 {
   font-family: Merriweather;
   font-size: 65px;
@@ -1007,6 +1010,12 @@ h3 {
   }
 }
 @media (max-width: 340px) {
+  h1 {
+    line-height: 40px;
+}
+.hero-info p {
+  margin-top: 0;
+}
   .language{
     right: 0%;
   }
