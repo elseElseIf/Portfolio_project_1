@@ -1002,6 +1002,9 @@ h3 {
   .video-settings {
     padding: 0;
   }
+  .burger-menu-button {
+    right: 20px;
+  }
 }
 @media (max-width: 340px) {
   .language{
