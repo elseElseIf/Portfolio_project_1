@@ -586,7 +586,8 @@ h3 {
 }
 .contacts {
   max-height: 700px;
-  background-image: url(./assets/contacts.jpg) no-repeat;
+  background-image: url(./assets/contacts.jpg);
+  
   background-repeat: no-repeat;
   background-size: cover; 
 }
@@ -982,6 +983,12 @@ h3 {
   }
   .length-button{
     display: none;
+  }
+  .portfolio-img{
+    margin-right: 0;
+  }
+  .portfolio-img img{
+    max-width: 90%;
   }
 }
 @media (max-width: 400px) {
